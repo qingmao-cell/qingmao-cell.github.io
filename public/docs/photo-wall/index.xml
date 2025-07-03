@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photo Wall on Blue Seal</title>
+    <link>https://qingmao-cell.github.io/docs/photo-wall/</link>
+    <description>Recent content in Photo Wall on Blue Seal</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://qingmao-cell.github.io/docs/photo-wall/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
