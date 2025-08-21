@@ -1,0 +1,42 @@
+/* 简约的技术栈标签样式 */
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.tech-badge {
+  padding: 0.2rem 0.6rem;
+  background: var(--code-bg);
+  color: var(--secondary);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Skills grid styling */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.skill-category {
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--entry);
+}
+
+.skill-category h4 {
+  margin-top: 0;
+  margin-bottom: 0.75rem; /* Add space after skill title */
+  color: var(--primary);
+}
+
+.skill-category p {
+  margin: 0;
+  line-height: 1.6;
+}
