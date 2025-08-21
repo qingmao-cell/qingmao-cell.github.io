@@ -67,4 +67,4 @@ URL や画像からの自動解析・手動入力フォーム
 
 ---
 
-[View Project →](#) &nbsp;&nbsp; [GitHub →](#)
+[View Project →](https://vercel.com/maomaos-projects-be35163b/recipe-project) &nbsp;&nbsp; [GitHub →](https://github.com/qingmao-cell/recipe-project)
