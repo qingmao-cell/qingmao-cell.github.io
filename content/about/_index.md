@@ -44,7 +44,7 @@ Web 開発を中心に、ビジュアルデザイン力を掛け合わせたク�
       <span class="tech-badge">Prisma</span>
       <span class="tech-badge">API</span>
     </div>
-    <p><a href="/portfolio/recipe-collection/">詳細を見る</a> ｜ <a href="#">GitHub</a></p>
+    <p><a href="/portfolio/recipe-collection/">詳細を見る</a> ｜ <a href="https://vercel.com/maomaos-projects-be35163b/recipe-project" target="_blank">デモ</a> ｜ <a href="https://github.com/qingmao-cell/recipe-project" target="_blank">GitHub</a></p>
   </div>
   <div class="project-card">
     <h3>Daka - 工数管理 Web アプリ <span class="note">React 練習作</span></h3>
