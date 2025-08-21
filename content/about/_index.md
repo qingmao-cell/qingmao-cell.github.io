@@ -1,13 +1,16 @@
 ---
-date: 2024-12-27
-draft: false
+title: "About"
+layout: "single"
+showToc: false
+showReadingTime: false
+showBreadCrumbs: false
 ---
 
 # こんにちは、RYO です！
 
 Web 開発を中心に、ビジュアルデザイン力を掛け合わせたクリエイターです。
 
-フロントエンドを軸に、API 連携・データ処理・Git 運用など実装面での対応が可能です。  
+フロントエンドを軸に、データ処理・Git 運用など実装面での対応が可能です。  
 また、日本語・英語・中国語の 3 言語でのコミュニケーション力と、デザイン背景を活かした UI/UX 改善提案にも強みがあります。
 
 ## 🛠️ スキル
@@ -35,20 +38,31 @@ Web 開発を中心に、ビジュアルデザイン力を掛け合わせたク�
   <div class="project-card">
     <h3>レシピコレクションアプリ</h3>
     <p class="summary">URLや画像からタイトル・写真を自動取得。タグ付け・検索で整理。</p>
-    <p class="badges"><span>React</span><span>Next.js</span><span>Prisma</span><span>API</span></p>
-    <p><a href="/projects/recipe-app/">詳細を見る</a> ｜ <a href="#">GitHub</a></p>
+    <div class="tech-badges">
+      <span class="tech-badge">React</span>
+      <span class="tech-badge">Next.js</span>
+      <span class="tech-badge">Prisma</span>
+      <span class="tech-badge">API</span>
+    </div>
+    <p><a href="/portfolio/recipe-collection/">詳細を見る</a> ｜ <a href="#">GitHub</a></p>
   </div>
   <div class="project-card">
-    <h3>工数記録ツール <span class="note">React 練習作</span></h3>
+    <h3>Daka - 工数管理 Web アプリ <span class="note">React 練習作</span></h3>
     <p class="summary">在宅作業の開始・終了・総工数を記録。日別集計あり。</p>
-    <p class="badges"><span>React</span><span>Vercel</span><span>Supabase</span></p>
-    <p><a href="/projects/timesheet-tool/">詳細を見る</a> ｜ <a href="#">GitHub</a></p>
+    <div class="tech-badges">
+      <span class="tech-badge">React</span>
+      <span class="tech-badge">Vercel</span>
+      <span class="tech-badge">Supabase</span>
+    </div>
+    <p><a href="/portfolio/timesheet-tool/">詳細を見る</a> ｜ <a href="https://daka-lake.vercel.app/" target="_blank">デモ</a> ｜ <a href="https://github.com/qingmao-cell/daka" target="_blank">GitHub</a></p>
   </div>
   <div class="project-card">
-    <h3>未定プロジェクト</h3>
-    <p class="summary">新しい技術スタックや UI 表現を試すためのプロジェクト。現在企画中。</p>
-    <p class="badges"><span>調整中</span></p>
-    <p><a href="#">デモ</a> ｜ <a href="#">GitHub</a></p>
+    <h3>社内管理システム - タスク管理モジュール（進行中）</h3>
+    <p class="summary">社内システムのタスク管理モジュール担当。工数記録とタスク分配機能の実装。</p>
+    <div class="tech-badges">
+      <span class="tech-badge">React</span>
+    </div>
+    <p><a href="/portfolio/task-management/">詳細を見る</a> ｜ <span style="opacity: 0.5;">Internal</span></p>
   </div>
 </div>
 
@@ -60,7 +74,5 @@ Web 開発を中心に、ビジュアルデザイン力を掛け合わせたク�
 
 ## 📬 連絡先 {#contact}
 
-お気軽にご連絡ください。お仕事のご相談やコラボレーションのお話をお待ちしています。
-
-- 📧 **Email**: [arisakiryo@gmail.com](mailto:arisakiryo@gmail.com)
-- 💻 **GitHub**: [github.com/qingmao-cell](https://github.com/qingmao-cell)
+📧 **Email**: [arisakiryo@gmail.com](mailto:arisakiryo@gmail.com)  
+💻 **GitHub**: [github.com/qingmao-cell](https://github.com/qingmao-cell)

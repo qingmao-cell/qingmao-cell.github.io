@@ -1,6 +1,11 @@
 baseurl = "https://qingmao-cell.github.io/"
 title = "Blue Seal"
-themes = "hugo-book"
+theme = "PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 
 # # (Optional) Set Google Analytics if you use it to track your website.
@@ -23,61 +28,66 @@ enableGitInfo = true
 # disableKinds = ['taxonomy', 'taxonomyTerm']
 
 [params]
-  # (Optional, default light) Sets color theme: light, dark or auto.
-  # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme = 'light'
+  # Theme settings
+  defaultTheme = "dark"
+  ShowShareButtons = false
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = false
+  ShowToc = true
+  TocOpen = false
+  disableShare = true
 
-  # (Optional, default true) Controls table of contents visibility on right side of pages.
-  # Start and end levels can be controlled with markup.tableOfContents setting.
-  # You can also specify this parameter per page in front matter.
-  BookToC = true
+  # Profile Mode (Portfolio)
+  [params.profileMode]
+    enabled = true
+    title = "Blue Seal"
+    subtitle = "Software Developer | Creative Technologist"
+    imageUrl = "/logo.png"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "Profile Picture"
+    
+    [[params.profileMode.buttons]]
+      name = "Portfolio"
+      url = "/portfolio"
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about"
 
-  # (Optional, default none) Set the path to a logo for the book. If the logo is
-  # /static/logo.png then the path would be 'logo.png'
-  BookLogo = 'logo.png'
+  # Home Info (disabled when profileMode is enabled)
+  # [params.homeInfoParams]
+  #   Title = "Welcome"
+  #   Content = "コードとデザインで、心地よいデジタル体験を創り出します。"
 
-  # (Optional, default docs) Specify section of content to render as menu
-  # You can also set value to "*" to render all sections to menu
-  BookSection = 'docs'
+  # Social Icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/qingmao-cell"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:arisakiryo@gmail.com"
 
-  # Set source repository location.
-  # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/alex-shpak/hugo-book'
-
-  # Specifies commit portion of the link to the page's last modified commit hash for 'doc' page
-  # type.
-  # Required if 'BookRepo' param is set.
-  # Value used to construct a URL consisting of BookRepo/BookCommitPath/<commit-hash>
-  # Github uses 'commit', Bitbucket uses 'commits'
-  BookCommitPath = 'commit'
-
-  # Enable 'Edit this page' links for 'doc' page type.
-  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
-  # Path must point to the site directory.
-  BookEditPath = 'edit/master/exampleSite'
-
-  # (Optional, default January 2, 2006) Configure the date format used on the pages
-  # - In git information
-  # - In blog posts
-  BookDateFormat = 'Jan 2, 2006'
-
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
-  # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch = true
-
-  # (Optional, default true) Enables comments template on pages
-  # By default partials/docs/comments.html includes Disqus template
-  # See https://gohugo.io/content-management/comments/#configure-disqus
-  # Can be overwritten by same param in page frontmatter
-  BookComments = true
-
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
-  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
-  # Theme will print warning if page referenced in markdown does not exists.
-  BookPortableLinks = true
-
-  # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker = true
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 15
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 20
+  # [[menu.main]]
+  #   name = "Blog"
+  #   url = "/posts/"
+  #   weight = 30
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 40
